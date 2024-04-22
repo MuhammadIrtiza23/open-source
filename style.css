@@ -1,6 +1,9 @@
 /* *{
     overflow: hidden;
 } */
+body{
+    background-image: url(./pexels-cottonbro-studio-4836513.jpg);
+}
 .bar{
     width:3em;
     height:0.5em;background-color: rgb(83, 83, 83);
@@ -40,7 +43,7 @@
 #navDiv{
     background-color: black;
     color: violet;
-    height: 50vh;
+    height: 30vh;
     width: 20vmax;
     padding-top: 8em;
     font-size: 2rem;
@@ -52,7 +55,7 @@
 .navDivnew{
     background-color: black;
     color: violet;
-    height: 50vh;
+    height: 30vh;
     width: 20vmax;
     left: 80%;
     padding-top: 8em;
@@ -78,29 +81,18 @@
 
 }
 h1{
-    font-size: 20vmax;
-}
-img{
-    height: 20em;
-    width: 20em;
-    /* position: fixed; */
-    position: absolute;
-    top: 4%;
-    left: 10%;
-    z-index: -4;
+    font-size: 19em;
+    color: rgb(192, 69, 69);
 }
 
 #sect1{
      position: relative;
-     width:100%;
+     width:90vw;
      height: 100vh;
      overflow: hidden;
+     text-align: center;
 }
-.scat1{
-   position: absolute;
-   z-index: -1;
-   transition: 0.2s;
-}
+
 
 .changebg{
 
@@ -110,4 +102,5 @@ img{
     border-radius: 45px;
     padding-top: 0.4em;
     justify-content: center;
+    
 }
