@@ -1,3 +1,24 @@
+*{
+    margin: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:3em;
+    position: relative;
+}
+#outerlogo{
+    width: fit-content;
+    height: auto;
+    position: relative;
+    z-index: 3;
+}
+#logo{
+    width: 60px ;
+    height: 60px;
+}
+
 /* *{
     overflow: hidden;
 } */
@@ -7,8 +28,12 @@ body{
 }
 .bar{
     width:3em;
+
+    height:0.5em;background-color: rgb(255, 255, 255);
+
     height:0.5em;
     background-color: #fff;
+
     margin-bottom: 0.2em;
     border-radius: 45px;
 }
@@ -19,10 +44,10 @@ body{
 }
 #hamwrapper{
     transition: 1s  ;
-    margin-top: 5em;
     width: fit-content;
     position: fixed;
     right: 2%;
+    margin-top: 1em;
     top:0%;
     z-index: 99999;
 }
@@ -84,6 +109,7 @@ body{
 }
 h1{
     font-size: 20vmax;
+    color: white;
 }
 img{
     height: 20em;
@@ -98,13 +124,34 @@ img{
 #sect1{
      position: relative;
      width:100%;
+     display: flex;
+     position: absolute;
+     top: 0%;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
      height: 100vh;
      overflow: hidden;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.61);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    z-index: -1;
 }
 .scat1{
    position: absolute;
    z-index: -1;
    transition: 0.2s;
+   width: 100%;
+   height: 100vh;
+   left: 0%;
+   top: 0%;
 }
 
 .changebg{
@@ -116,6 +163,8 @@ img{
     padding-top: 0.4em;
     justify-content: center;
 }
+#second{
+    margin-top: 100vh;
 #hero-sec{
     background-image: url(./pexels-cottonbro-studio-4836513.jpg);
     background-size: cover;
